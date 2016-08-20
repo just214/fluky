@@ -45,7 +45,7 @@ If you are just planning on using your **fluky** object once, then you can creat
 var myFluky = Fluky(1, 50, 0).new();
 ```
 
-By doing it this way, you are actually saving the return value of the new method, therefore, you would no longer have the ability to generate new numbers with this object.
+By doing it this way, you are actually saving the return value of the `new( )` method, which is the value of the ***value*** property and not the actual object. Therefore, you would no longer have the ability to generate new numbers with this object.
 
 Under the hood, a new ***value*** property is added to your **fluky** object the first time you call the `new( )` method on that object. Then, that property is simply updated with a new random number each time you invoke the `new( )` method.
 
