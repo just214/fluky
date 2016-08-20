@@ -2,7 +2,7 @@
 ### A random number generator for JavaScript.
 The **fluky** constructor can be accessed one of two ways.
 
-You use the constructor to create a custom ***fluky*** object that you can use to create random numbers.
+You use the constructor to create a custom **fluky** object that you can use to create random numbers.
 
 ```
 var myRandomNumber = Fluky();
