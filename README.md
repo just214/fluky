@@ -13,24 +13,24 @@ var myRandomNumber = f$();
 The **fluky** constructor accepts three optional arguments.
 
 ```
-Fluky(start, end, decimals);
+Fluky(lowest, highest, decimal);
 ```
 
-**start-** The lowest number that you want the random number to be. The default value is 0.
+**lowest-** The lowest number that you want the random number to be. The default value is 0.
 
-**end-** The highest number that you want the random number to be. The default value is 100.
+**highest-** The highest number that you want the random number to be. The default value is 100.
 
-**decimals-** How many decimal places you want to the random number to have. The default value is 0.
+**decimal-** How many decimal places you want to the random number to have. The default value is 0.
 
 If you provide a value other than a number or if you do not provide a value at all, then the default value will be applied to that parameter. You can provide just the arguments you want or no arguments at all. To skip a parameter, just use an underscore `_` in the place of the argument you want to skip.
 
-If you wanted to only provide the ***end*** and ***decimals*** arguments, then it would look something like this:
+If you wanted to only provide the ***highest*** and ***decimal*** arguments, then it would look something like this:
 
 ```
 var myFluky = Fluky(_, 50, 2);
 ```
 
-This would apply the default value of 0 to the start parameter and keep only the arguments you provided. In this example, you would receive random numbers with two decimal places between 0 and 50 each time you invoked the `new( )` method. (see below)
+This would apply the default value of 0 to the ***lowest*** parameter and keep only the arguments you provided. In this example, you would receive random numbers with two decimal places between 0 and 50 each time you invoked the `new( )` method. (see below)
 
 Once you create your **fluky** object, you can create as many new instances of your object as you want using the `new( )` method.
 
