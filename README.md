@@ -49,9 +49,14 @@ By doing it this way, you are actually saving the return value of the new method
 
 Under the hood, a new ***value*** property is added to your **fluky** object the first time you call the `new( )` method on that object. Then, that property is simply updated with a new random number each time you invoke the `new( )` method.
 
-You can access the value of this property at any time by simply accessing the property on the object. This value is overwritten each time you call the `new( )` method.
+You can access the value of this property at any time by simply accessing the ***value*** property on the object. This value is overwritten each time you call the `new( )` method.
 
 ```
 anotherRandomNumber.value;
 ```
 
+Would you like to know how many attempts it took get your random number? You can find out with the ***attempts*** property. This is also logged to the console by default when you call the `new( )` method.
+
+```
+anotherRandomNumber.attempts;
+```
