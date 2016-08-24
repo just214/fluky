@@ -1,4 +1,5 @@
 # fluky
+##just made a small change
 ### A random number generator for JavaScript.
 The **fluky** constructor can be accessed one of two ways.
 
