@@ -1,4 +1,5 @@
 # fluky
+##just made a small change
 ### A random number generator for JavaScript.
 The **fluky** constructor can be accessed one of two ways.
 
@@ -57,4 +58,9 @@ You can access the value of this property at any time by simply accessing the **
 anotherRandomNumber.value;
 ```
 
+Would you like to know how many attempts it took get your random number? You can find out with the ***attempts*** property. This is also logged to the console by default when you call the `new( )` method.
+
+```
+anotherRandomNumber.attempts;
+```
 ##Enjoy!
