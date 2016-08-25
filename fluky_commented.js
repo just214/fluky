@@ -61,8 +61,8 @@
 
 		new() {
 
-			// This is the math to get the random number based on parameter values.
-			// Let's say the person wanted a random whole number between 40 & 60
+			// This is the math to get the random number based on argument values.
+			// Let's say the user wanted a random whole number between 40 & 60
 			// Math.random() returns a value between 0 and 1
 			// 60 - 40 = 20
 			// 20 * Math.random() = Some value between 0 and 20. 
