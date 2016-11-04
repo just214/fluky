@@ -8,7 +8,7 @@
 
 	//this arrow function serves the purpose of parsing and coercing the arguments
 	//and creating an instance of our class with the revised
-	//arguments in a new array. This keeps the user from having to type 'new'
+	//arguments in a new array. This keeps the user from having to type 'new' each time.
 
 	let Fluky = (...args) => {
 
